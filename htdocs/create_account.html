@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+     <title>Zach's Test Page</title>
+     <link rel = "stylesheet" type = "text/css" href = "webpage_style.css">
+     <link rel = "stylesheet" type = "text/css" href = "create_style.css">
+   </head>
+
+   <body>
+      <header>
+         <h1>Dream Team!</h1>
+      </header>
+
+      <form action = "create_user.php" method = "post">
+         <fieldset>
+            <legend>Login Information</legend>
+            Username:<br>
+            <input type = "text" name = "username"><br>
+            Password:<br>
+            <input type = "password" name = "password"><br>
+            Confirm Password:<br>
+            <input type = "password" name = "password_confirm"><br>
+            </fieldset>
+            <fieldset>
+            <legend>Personal Information</legend>
+            First Name:<br>
+            <input type = "text" name = "first_name"><br>
+            Last Name:<br>
+            <input type = "text" name = "last_name"><br>
+            E-mail Address:<br>
+            <input type = "email" name = "e-mail"><br>
+            Confirm E-mail Address:<br>
+            <input type = "email" name = "e-mail_confirm"><br>
+            <input type = "submit" value = "Create Account">
+         </fieldset>
+      </form>
+
+   </body>
+</html>
+
