@@ -1,0 +1,18 @@
+#This document is meant to run you through the basic commands to get your
+#website up and running. Any lines that do not start with a # are commands
+#meant to be entered into your terminal window
+
+#Setup your MySQL database
+mysql -u root -p
+source /your/filepath/htdocs/setup/server_setup.sql
+exit
+
+
+#Setup your Apache connection
+vi /your/filepath/conf/apache/apache.conf
+
+#Edit the values in this document to match your apache setup
+#then run the following command
+apachectl restart
+
+
